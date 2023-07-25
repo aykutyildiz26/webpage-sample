@@ -1,3 +1,7 @@
 # webpage-sample
 A webpage sample
--Aykut just pulled in.
+
+Added Header.
+Added Heading.
+Adden 2 paragraphes.
+Used Internal CSS.
