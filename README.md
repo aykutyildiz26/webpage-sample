@@ -1,7 +1,7 @@
 # webpage-sample
 A webpage sample
 
-Added Header.
-Added Heading.
-Adden 2 paragraphes.
-Used Internal CSS.
+Added navigator.
+Added 4 HTML links.
+Added Unordered lists.
+Used CSS.

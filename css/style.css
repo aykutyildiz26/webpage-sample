@@ -6,10 +6,62 @@ body{
     background-size: 100% 100%;
 }
 ul{
-    ul {
-        list-style-type: none;
-        border: solid 5px red;
-        margin: 20px;
-        padding: 50px;
-      }
+
+    display: inline-block;
+    display: inline;
+    zoom: 1 
+}
+.listmenu{
+    background-color: black;
+    overflow: hidden;
+    display: inline;
+    float: left;
+    height: 250px;
+}
+.listmenu a{
+    color: orange;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 10px 10px 20px;
+}
+.navigator h1{
+    display: inline;
+    border: solid 2px red;
+    padding: 6px 150px;
+    margin: auto;
+    text-align: left;
+    float: left;
+    
+}
+.navigator{
+    background-color: black;
+    color: wheat;
+    overflow: hidden;
+
+}
+.navigator a{
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigator a:hover{
+    background-color:chocolate;
+    color: black;
+}
+.navigator a.active{
+    background-color: rgb(241, 36, 9);
+    color: black;
+}
+.navigator input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
